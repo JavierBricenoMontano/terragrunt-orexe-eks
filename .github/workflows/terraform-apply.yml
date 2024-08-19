@@ -36,6 +36,6 @@ jobs:
       working-directory: AWS/live/dev
       run: terragrunt run-all init
 
-    - name: Initialize Terragrunt
+    - name: Plan Terragrunt
       working-directory: AWS/live/dev
       run: terragrunt run-all plan
