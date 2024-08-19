@@ -33,5 +33,5 @@ jobs:
         aws-region: us-west-1
         
     - name: Initialize Terragrunt
-      working-directory: ./AWS/live/dev
+      working-directory: AWS/live/dev
       run: terragrunt init
