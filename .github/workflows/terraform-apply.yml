@@ -2,8 +2,8 @@ name: Deploy to AWS
 
 on:
   push:
-    paths:
-      - 'AWS/live/dev/**'
+    branches:
+      - main
 
 jobs:
   deploy:
